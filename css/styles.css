@@ -240,7 +240,7 @@ sup {
 
 a {
   color: #1D809F;
-  text-decoration: underline;
+  text-decoration: dotted;
 }
 a:hover {
   color: #17667f;
@@ -604,7 +604,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 350px;
 }
 
 .img-thumbnail {
@@ -7829,7 +7829,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #092b54 !important;
 }
 
 .bg-dark {
@@ -11504,10 +11504,12 @@ footer.footer .social-link:hover {
   top: 0;
   bottom: 0;
   z-index: 1;
+  justify-content: center;
+  align-items: center;
 }
 .portfolio-item .caption .caption-content {
   color: #fff;
-  margin: auto 2rem 2rem;
+  /* margin: auto 2rem 2rem; */
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
   font-size: 0.8rem;
@@ -11531,18 +11533,18 @@ footer.footer .social-link:hover {
   }
   .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
+    /* margin-left: 5rem; */
+    /* margin-right: 5rem; */
+    /* margin-bottom: 5rem; */
   }
-  .portfolio-item img {
+  .portfolio-item .img-fluid {
     transition: -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
             clip-path: inset(-1px);
   }
-  .portfolio-item:hover img {
+  .portfolio-item:hover .img-fluid {
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
@@ -11631,4 +11633,51 @@ footer.footer .social-link:hover {
 .logo {
   font-size: 25px;
   font-weight: 400;
+}
+
+.corsiblock {
+  background-image: url("../assets/img/CorsiBlock.png");
+}
+
+.pop {
+  background-image: url("../assets/img/PoP.jpg");
+}
+
+.gun {
+  background-image: url("../assets/img/Gun.png");
+}
+
+.pacman {
+  background-image: url("../assets/img/Pac.png");
+}
+
+.jet {
+  background-image: url("../assets/img/Jet.png");
+}
+
+.work-image {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.work-item {
+  height: 350px;
+}
+
+.mask {
+  clip-path: inset(10px 20px 30px 40px);
+}
+
+.zoom {
+  padding: 50px;
+  /* background-color: green; */
+  transition: transform .2s; /* Animation */
+  /* width: 200px; */
+  /* height: 200px; */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
