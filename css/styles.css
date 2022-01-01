@@ -607,6 +607,14 @@ progress {
   height: 350px;
 }
 
+.icon-itchio {
+  background: url("../assets/img/itchio.png");
+  height: 20px;
+  width: 20px;
+  display: block;
+  /* Other styles here */
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
