@@ -11660,6 +11660,10 @@ footer.footer .social-link:hover {
   background-image: url("../assets/img/Jet.png");
 }
 
+.jam {
+  background-image: url("../assets/img/Jam.png");
+}
+
 .work-image {
   background-size: cover;
   width: 100%;
