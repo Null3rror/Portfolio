@@ -492,7 +492,8 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.6);
   font-weight: 300;
 }
 
@@ -11621,7 +11622,12 @@ footer.footer .social-link:hover {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-
+.underline {
+  border-bottom: 4px solid #0d83ba;
+  border-radius: 0px;
+  color: #fff;
+  text-decoration: none;
+}
 
 .video {
   margin: auto;
