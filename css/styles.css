@@ -11700,6 +11700,11 @@ footer.footer .social-link:hover {
   background-image: url("../assets/img/CorsiBlock.png");
 }
 
+.foundersfortune {
+  background-image: url("../assets/img/founders-fortune.jpg");
+}
+
+
 .pop {
   background-image: url("../assets/img/PoP.jpg");
 }
